@@ -20,7 +20,8 @@ body {
     height: 100vh;
 }
 
-a, li {
+a,
+li {
     text-decoration: none !important;
     color: black
 }
@@ -37,6 +38,7 @@ a, li {
     width: 80%;
     height: auto;
 }
+
 #arrow-tip1 {
     position: relative;
     left: 80%
@@ -47,7 +49,7 @@ a, li {
     height: 100%;
     width: 20%;
     position: absolute;
-    
+
     right: 0;
 }
 
@@ -94,14 +96,17 @@ a, li {
 #tip2 {
     background-color: var(--tip2-color);
 }
+
 #tip3 {
     left: 25%;
     background-color: var(--tip3-color);
 }
+
 #tip4 {
     left: 50%;
     background-color: var(--tip4-color);
 }
+
 #tip5 {
     left: 75%;
     background-color: var(--tip5-color);

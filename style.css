@@ -1,0 +1,113 @@
+:root {
+    --tip2-color: #AFCBFF;
+    --tip3-color: #D7F9FF;
+    --tip4-color: #99EDCC;
+    --tip5-color: #FFDDA1;
+}
+
+#cover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 10;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+a, li {
+    text-decoration: none !important;
+    color: black
+}
+
+
+#tip1 {
+    width: 70%;
+    height: full;
+    margin-left: 64px;
+}
+
+#arrow-slider {
+    margin-top: 5%;
+    width: 80%;
+    height: auto;
+}
+#arrow-tip1 {
+    position: relative;
+    left: 80%
+}
+
+
+#other-tips {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    
+    right: 0;
+}
+
+
+.other-tip {
+    width: 24%;
+    height: 100%;
+    position: absolute;
+    border: 2px black solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    transition: ease-in-out 300ms;
+}
+
+.other-tip:hover {
+    border-bottom: 2px solid black;
+    height: 90%;
+}
+
+.title {
+    font-size: 8rem;
+    font-family: 'Italiana', serif;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.tip-text {
+    width: 75%;
+    text-align: justify;
+    margin-top: -5%;
+}
+
+.tip-name {
+    font-size: 1.25rem;
+    rotate: 270deg;
+    position: relative;
+    bottom: 5%;
+    top: 85%;
+}
+
+#tip2 {
+    background-color: var(--tip2-color);
+}
+#tip3 {
+    left: 25%;
+    background-color: var(--tip3-color);
+}
+#tip4 {
+    left: 50%;
+    background-color: var(--tip4-color);
+}
+#tip5 {
+    left: 75%;
+    background-color: var(--tip5-color);
+}
+
+
+.border {
+    border: 2px solid red;
+}

@@ -1,0 +1,46 @@
+
+
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+#cover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--tip2-color);
+    z-index: 10;
+}
+
+#previous-tips {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    
+}
+
+#tip2 {
+    width: 70%;
+    height: full;
+    margin-left: 10%;
+    background-color: transparent;
+    z-index: 5;
+}
+
+#highlighter {
+    background-color: var(--tip2-color);
+    width: 35%;
+    height: 5%;
+    position: absolute;
+    top: 17%;
+    left: 7%;
+    opacity:0.5;
+}
+
+.quality-image {
+    scale: 0.8;
+    margin-top: 5%;
+}

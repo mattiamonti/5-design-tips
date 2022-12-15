@@ -1,0 +1,57 @@
+ 
+
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+#cover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--tip4-color);
+    z-index: 10;
+}
+
+#previous-tips {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+
+}
+
+#tip4 {
+    width: 70%;
+    height: full;
+    margin-left: 20%;
+    background-color: transparent;
+    z-index: 5;
+}
+
+
+#highlighter {
+    background-color: var(--tip4-color);
+    width: 32%;
+    height: 5%;
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    opacity:0.5;
+}
+
+
+#tip2 {
+    left: 25%;
+}
+#tip3 {
+    left:50%;
+    background-color: var(--tip3-color);
+}
+
+#notclear {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+

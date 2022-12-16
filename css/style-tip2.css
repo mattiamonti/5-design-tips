@@ -1,18 +1,10 @@
+/* colore cover 'caricamento' pagina */
 #cover {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
     background-color: var(--tip2-color);
-    z-index: 10;
 }
 
-#previous-tips {
-    height: 100%;
-    width: 20%;
-    position: absolute;
 
-}
-
+/* tip principale*/
 #tip2 {
     width: 70%;
     height: full;
@@ -23,14 +15,10 @@
 
 #highlighter {
     background-color: var(--tip2-color);
-    width: 35%;
-    height: 5%;
-    position: absolute;
-    top: 17%;
-    left: 7%;
-    opacity: 0.5;
 }
 
+
+/* immagine di esempio*/
 .quality-image {
     scale: 0.8;
     margin-top: 5%;

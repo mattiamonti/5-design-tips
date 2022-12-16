@@ -1,18 +1,10 @@
+/* colore cover 'caricamento' pagina */
 #cover {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
     background-color: var(--tip4-color);
-    z-index: 10;
 }
 
-#previous-tips {
-    height: 100%;
-    width: 20%;
-    position: absolute;
 
-}
-
+/* tip principale */
 #tip4 {
     width: 70%;
     height: full;
@@ -21,18 +13,21 @@
     z-index: 5;
 }
 
-
 #highlighter {
     background-color: var(--tip4-color);
     width: 32%;
-    height: 5%;
-    position: absolute;
-    top: 17%;
     left: 17%;
-    opacity: 0.5;
 }
 
 
+/* immagine di esempio */
+#notclear {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+
+/* tip precedenti */
 #tip2 {
     left: 25%;
 }
@@ -40,9 +35,4 @@
 #tip3 {
     left: 50%;
     background-color: var(--tip3-color);
-}
-
-#notclear {
-    margin-top: 5%;
-    margin-left: 15%;
 }

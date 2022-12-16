@@ -1,18 +1,25 @@
+/* colore cover 'caricamento' pagina */
 #cover {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
     background-color: var(--tip5-color);
-    z-index: 10;
 }
 
-#previous-tips {
-    height: 100%;
-    width: 20%;
-    position: absolute;
 
+/* tip principale */
+#tip5 {
+    width: 80%;
+    height: full;
+    margin-left: 25%;
+    background-color: transparent;
+    z-index: 5;
 }
 
+#highlighter {
+    background-color: var(--tip5-color);
+    width: 32%;
+    left: 22%;
+}
+
+/* tip precedenti */
 #tip2 {
     left: 25%;
 }
@@ -27,25 +34,8 @@
     background-color: var(--tip4-color);
 }
 
-#tip5 {
-    width: 80%;
-    height: full;
-    margin-left: 25%;
-    background-color: transparent;
-    z-index: 5;
-}
 
-
-#highlighter {
-    background-color: var(--tip5-color);
-    width: 32%;
-    height: 5%;
-    position: absolute;
-    top: 17%;
-    left: 22%;
-    opacity: 0.5;
-}
-
+/* esempio di colori esplicativi */
 #color-gallery {
     width: 40%;
     height: 10%;

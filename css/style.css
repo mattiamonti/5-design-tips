@@ -1,3 +1,4 @@
+/* VARIABILI */
 :root {
     --tip2-color: #AFCBFF;
     --tip3-color: #D7F9FF;
@@ -5,14 +6,7 @@
     --tip5-color: #FFDDA1;
 }
 
-#cover {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    z-index: 10;
-}
-
+/* FORMATTAZIONE BASE */
 body {
     background-color: white;
     margin: 0;
@@ -27,24 +21,29 @@ li {
 }
 
 
-#tip1 {
-    width: 70%;
-    height: full;
-    margin-left: 64px;
-}
-
-#arrow-slider {
-    margin-top: 5%;
-    width: 80%;
-    height: auto;
-}
-
-#arrow-tip1 {
-    position: relative;
-    left: 80%
+/* cover 'caricamento' pagina*/
+#cover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 10;
 }
 
 
+/* testi e titoli */
+.title {
+    font-size: 8rem;
+    font-family: 'Italiana', serif;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+
+/* posizione e container colonne laterali */
 #other-tips {
     height: 100%;
     width: 20%;
@@ -52,7 +51,6 @@ li {
 
     right: 0;
 }
-
 
 .other-tip {
     width: 24%;
@@ -69,16 +67,16 @@ li {
     height: 90%;
 }
 
-.title {
-    font-size: 8rem;
-    font-family: 'Italiana', serif;
+
+/* container colonne laterali tip precedenti*/
+#previous-tips {
+    height: 100%;
+    width: 20%;
+    position: absolute;
 }
 
-.text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-}
 
+/* testo colonne laterali */
 .tip-text {
     width: 75%;
     text-align: justify;
@@ -93,6 +91,17 @@ li {
     top: 85%;
 }
 
+#highlighter {
+    width: 35%;
+    height: 5%;
+    position: absolute;
+    top: 17%;
+    left: 7%;
+    opacity: 0.5;
+}
+
+
+/* colonne laterali dei diversi tip */
 #tip2 {
     background-color: var(--tip2-color);
 }
@@ -113,6 +122,7 @@ li {
 }
 
 
+/* DEBUG CLASS */
 .border {
     border: 2px solid red;
 }

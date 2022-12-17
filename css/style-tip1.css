@@ -1,7 +1,33 @@
 /* colore cover 'caricamento' pagina */
 #cover {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* animazione caricamento 100%*/
+#loading-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loading-number {
+    position: absolute;
+}
+#loading-path {
+    position: relative;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s linear forwards;
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
 
 /* tip principale*/
 #tip1 {

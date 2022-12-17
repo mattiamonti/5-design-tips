@@ -20,12 +20,14 @@
 }
 
 
-/* immagine di esempio */
-#notclear {
-    margin-top: 5%;
+/* svg di esempio */
+#example-container {
+    margin-top: 10%;
     margin-left: 15%;
 }
-
+#not-clear-example-2 {
+    margin-left: 15%;
+}
 
 /* tip precedenti */
 #tip2 {
